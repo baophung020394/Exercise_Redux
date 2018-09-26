@@ -10,7 +10,15 @@ var config = {
 };
 export const firebaseConnect =  firebase.initializeApp(config);
 
-var data = firebase.database().ref('dataForNote/');
+var data = firebase.database().ref('dataForNote/note2');
+
+    data.set(
+        {
+        id: 1,
+        titleNote: "Ngay 20/12",
+        contentNote: "Demo content for note"
+    })
+
     data.once('value').then(function(snapchat){
         console.log(snapchat.val());
     })
