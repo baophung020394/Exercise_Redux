@@ -1,0 +1,12 @@
+{
+  "note1" : {
+    "id" : 1,
+    "noteContent" : "Tạo ứng dụng web một trang với react",
+    "title" : "Ngày 31-03-2018 đi bơi"
+  },
+  "note2" : {
+    "id" : 2,
+    "noteContent" : "Your security rules are defined as public, so anyone can steal, modify, or delete data in your database",
+    "title" : "Ngày 03-04 đi mưa áo mưa"
+  }
+}
